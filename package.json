@@ -1,4 +1,21 @@
 {
-    "name": "training-package",
-    "version": "1.0.0"
+  "name": "training-package",
+  "version": "1.0.0",
+  "description": "for training purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "training/.git/config"
+  },
+  "keywords": [
+    "training"
+  ],
+  "author": "kovacevic",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
+}
