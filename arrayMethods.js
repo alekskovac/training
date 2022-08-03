@@ -25,22 +25,8 @@ Array.prototype.myAwesomeSuperCoolReduce = function (callbackFn, previousValue) 
   }
  console.log('array sum', array.reduce(callback));
 
- // array of strings
- const arrOfStrings = ['a', 'b', 'c', 'a', 'b', 'c', 'd'];
-
- const obj = {'a': [0, 3], 'b': [1, 4], 'c': [2, 5], 'd': [6]};
-
- console.log(arrOfStrings.reduce((accumulator, currentItem, currentIndex, array) => {
-    if (accumulator[currentItem]) {
-      accumulator[currentItem].push(currentIndex);
-    } else {
-      accumulator[currentItem] = [currentIndex];
-    }
-    return accumulator;
-  }))
-
- function collectStats(arr) {
- }
+ //function collectStats(arr) {
+ // 
 
  // reduce array and return object
  // write tests in jest

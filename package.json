@@ -4,7 +4,7 @@
   "description": "for training purposes",
   "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "test -u"
   },
   "repository": {
     "type": "git",
