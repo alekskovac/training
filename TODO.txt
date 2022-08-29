@@ -1,0 +1,6 @@
+Create github project, connect local project to it via git terminal
+Fix collectStats method
+Move every array method to separate file (use MY convention in naming)
+Add unit tests for array methods
+Implement Object.myFromEntries
+Add UTs for myFromEntries
